@@ -1,74 +1,85 @@
-{font-family:"Comic Sans MS", cursive, sans-serif;
-  box-sizing: border-box;}
-
-	.title-container {
-  width: 90%;
-  height: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  font-size: 175%;
-  }
-
-   .menu-title{
-   	width:40%;
-   	float:right;
-   	border: 2px solid black;
-   	text-align: center;
-   	font-size: 125%;
-   	float:right;
-   }
-
-   .menu{
-   	background-color: #8e8e8e;
-   	margin:10px;
-   	border:2px solid black;
-   }
-
-   .text{
-   	margin:10px;
-   	margin-top:40px;
-   	clear:both;
-   }
-
-   .row {
-    width: 90%;
-    border: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    padding:5px;
-   }
-   #chicken{background-color: #cf8d8d;}
-   #beef{background-color: #b93c3b; color:white;}
-   #sushi{background-color: #e1ca8d;}
-   
-
-/********** Desktop **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    background-color: white;
-    width: 33.33%;
-  }
+* {
+  box-sizing: border-box;
 }
 
-/********** Tablet **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
+h1 {
+	font-size: 27px;
+	font-family: Georgia, serif;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+}
+.section {
+	background-color: rgb(150, 150, 150);
+   	border: 2px solid black;
+   	margin-top: 20px;
+   	margin-right: 20px;
+   	padding: 5px;
+   	text-align: justify;
+   	position: relative;
+    
+    
+ }
+ .chicken {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia, sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+ span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+  right: 0;
+  margin: 0;
+	position: absolute;
+}
+#nr1 {
+	background-color: rgb(250, 150, 150);
+	color: rgb(0, 0, 0);
+}
+#nr2 {
+	background-color: rgb(250, 0, 0);
+	color: rgb(250, 250, 250);
+}
+#nr3 {
+	background-color: rgb(200, 200, 100);
+	color: rgb(0, 0, 0);
+}
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    width: 33.33%;
     float: left;
-    background-color: white;
-  }
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
   .col-md-6 {
     width: 50%;
+    float: left;
   }
   .col-md-12 {
     width: 100%;
+    float: left;
   }
 }
 
-/********** Mobile **********/
-@media (max-width: 767px) {.col-sm-12 {
-    float: left;
-    background-color: white;
-    width: 100%;}
+@media (max-width: 767px)  {
+
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+ * {
+  box-sizing: border-box;
+}
 }
